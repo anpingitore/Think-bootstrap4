@@ -4,37 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Clientes</title>
 </head>
 <body>
    
-    <header class="barraprincipal">
-        <a href="../index.html"><div class="logo"></div></a>
-        
-        <nav class="barra">
-            <ul>
-                <li>
-                    <a href="../index.html">Estudio</a>
-                </li>
-                <li>
-                    <a href="../index.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./Servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="./Proyectos.html">Proyectos</a>
-                </li>
-                <li>
-                    <a href="./Clientes.html">Clientes</a>
-                </li>
-                <li>
-                    <a href="./Contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+     <!-- Inicio Navbar-->
+     <nav class="navbar navbar-expand-md">
+        <!-- Brand -->
+        <a class="navbar-brand" href="../index.html"><div class="logo"></div></a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Estudio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Contacto.html">Contacto</a>
+            </li>
+          </ul>
+          
+        </div>
+
+      </nav>
+
+    <!-- Fin Navbar-->
+
 
 
     <main>
@@ -100,67 +117,81 @@
 
     <footer>
 
-        <section class="footer1">
-
-            <div class="Direccion"> 
-               <h4>Direccion</h4>
-               <p>Av. Santa Fé 1123, Buenos Aires, Argentina, CP 1222</p>
-           </div>
-
-           <iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4644.831132195227!2d-58.40330538196146!3d-34
-           .59425815976406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x
-           392ca99351808a75!2sRecoleta%2C%20CABA%2C%20Argentina!5e0!3m2!1ses!2sit!4v1673118096430!5m2!1ses!2sit"
-           width="100%" height="96" style="border:0;" allowfullscreen="" loading="lazy" 
-           referrerpolicy="no-referrer-when-downgrade">
-           </iframe>
-
-           <div class="Sociales"> 
-                    <h4>Sociales</h4> 
-                    <ol>
-                        <li>
-                        <a href="https://www.linkedin.com/home?originalSubdomain=es" target="_blank">LinkedIn</a>
-                        </li>
-                        <li>
-                        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                        </li>
-                        <li>
-                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                        </li>
-                    </ol>
-            </div>
-
-            <div class="Contacto"> 
-                <h4>Contacto</h4> 
-                    <ol>
-                    <li>+5491165833436</li>
-                    <li>consultas@think.png.com</li>
-                    </ol>
-            </div>
-
-
+        <section class="footer1 container-fluid">
+    
+            <div class="columnas-footer1 row">
+    
+              <div class="Direccion col-md-4"> 
+                 <h4>Direccion</h4>
+                 <p>Av. Santa Fé 1123, Buenos Aires, Argentina, CP 1222</p>
+    
+                 <iframe class="mapa"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4644.831132195227!2d-58.40330538196146!3d-34
+                 .59425815976406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca99c609fc2f%3A0x
+                 392ca99351808a75!2sRecoleta%2C%20CABA%2C%20Argentina!5e0!3m2!1ses!2sit!4v1673118096430!5m2!1ses!2sit"
+                 width="100%" height="96" style="border:0;" allowfullscreen="" loading="lazy" 
+                 referrerpolicy="no-referrer-when-downgrade">
+                 </iframe>
+      
+             </div>
+    
+    
+             <div class="Sociales col-md-4"> 
+                      <h4>Sociales</h4> 
+                      <ol>
+                          <li>
+                          <a href="https://www.linkedin.com/home?originalSubdomain=es" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                          </li>
+                          <li>
+                          <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i>Instagram</a>
+                          </li>
+                          <li>
+                          <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                          </li>
+                      </ol>
+              </div>
+    
+              <div class="Contacto col-md-4"> 
+                  <h4>Contacto</h4> 
+                      <ol>
+                      <li><i class="fa-solid fa-phone"></i>+5491165833436</li>
+                      <li><i class="fa-solid fa-envelope"></i>consultas@think.png.com</li>
+                      </ol>
+              </div>
+    
+          </div>
+    
         </section>
+    
+          <section class="footer2 container-fluid">
+    
+            <div class="columnas-footer2 row">
+    
+              <div class="logo-footer2 col-md-6"> <img src="../recursos/SBD.png" alt="buen diseno"> </div>
+    
+              <nav class="nav-footer2 col-md-6">
+                  <ul>
+                      <li>
+                          <a href="https://www.lipsum.com/" target="_blank">Legales</a>
+                      </li>
+                      <li>
+                          <a href="https://www.lipsum.com/" target="_blank">Política de Cookies</a>
+                      </li>
+                      <li>
+                          <a href="https://www.lipsum.com/" target="_blank">© 2023 Arg Design. All Rights Reserved</a>
+                      </li>
+                  </ul>
+              </nav>
+              
+          </div>
+          
+          </section>
+    
+      </footer>
 
-        <section class="footer2">
-            <div class="logo-footer2"></div>
-
-            <nav class="nav-footer2">
-                <ul>
-                    <li>
-                        <a href="https://www.lipsum.com/" target="_blank">Legales</a>
-                    </li>
-                    <li>
-                        <a href="https://www.lipsum.com/" target="_blank">Política de Cookies</a>
-                    </li>
-                    <li>
-                        <a href="https://www.lipsum.com/" target="_blank">© 2023 Arg Design. All Rights Reserved</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </section>
-
-    </footer>
-
+ <!--Pongo el codigo JS de Boostrap-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
 
 </body>
 </html>

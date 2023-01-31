@@ -66,7 +66,6 @@ main{height: auto;
 
 /*FOOTER*/
 
-
 footer {width:100%;
         height: auto;
         background-color: green;
@@ -155,6 +154,15 @@ footer {width:100%;
 
 /*Aca empiezo con las paginas*/
 
+/*Titulo de las paginas*/
+
+.title {text-align: center;
+        font-size: 24px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: black;}
+
+
 /*Seccion suscribirse a newsletter*/
 
 .suscripcion-noticias{height: auto;
@@ -164,13 +172,13 @@ footer {width:100%;
                       padding: 16px;
                      }
 
-.suscripcion-noticias h3 {font-family: 'Helvetica Neue';
+.suscripcion-noticias h3 {
            font-style: normal;
            font-weight: bold;
            font-size: 24px;
                     }
 
-.suscripcion-noticias h4 {font-family: 'Helvetica Neue';
+.suscripcion-noticias h4 {
             font-style: normal;
             font-weight: 200;
             font-size: 18px;
@@ -178,7 +186,7 @@ footer {width:100%;
                     } 
             
 .input-news{text-align: left;
-            width: 90%;
+            width: 60vw;
             height: 40px;
             margin: 8px;
         }
@@ -332,80 +340,23 @@ footer {width:100%;
 
 /*PAGINA SERVICIOS*/
 
-.sright{width: 100%;
-        height: auto;
-        background-color: chartreuse;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;}
-
-.sright-img{background-color: #FF856A;
-            background-image: url(../recursos/servicio1.png);
-            height: 200px;
-            width: 100%;
-            background-size: cover;
-            }
-
-.sright aside {height: 200px;
+.img-servicio {background-color: #FF856A;
+               background-image: url(../recursos/servicio1.png);
+               height: 200px;
                width: 100%;
-               background-color:white;
-               padding: 0.5rem;
+               background-size: cover;
               }
 
-.sright h3 {font-family: 'Helvetica Neue';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            margin: 0.5rem;
-            }
+.desc-servicio {height: 200px;
+               width: 100%;
+               background-color:white;
+               padding: 01rem; }
 
-.sright p   {font-family: 'Helvetica Neue';
-            font-style: normal;
-            font-weight: 200;
-            font-size: 18px;
-            margin: 0.5rem;
-            }
+#serv2 {background-image: url(../recursos/servicio2.png);}
+#serv3 {background-image: url(../recursos/servicio3.png);}
+#serv4 {background-image: url(../recursos/servicio4.png);}
 
- .sleft {width: 100%;
-        height: auto;
-        background-color: rgb(212, 0, 255);
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;}
-
-.sleft-img{background-color: #FF856A;
-            background-image: url(../recursos/servicio2.png);
-            height: 200px;
-            width: 100%;
-            background-size: cover;
-            }
-
-.sleft aside {height: 200px;
-            width: 100%;
-            background-color:white;
-            padding: 0.5rem;
-               }
-
-.sleft h3 {font-family: 'Helvetica Neue';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 24px;
-            margin: 0.5rem;
-            }
-
-.sleft p   {font-family: 'Helvetica Neue';
-            font-style: normal;
-            font-weight: 200;
-            font-size: 18px;
-            margin: 0.5rem;
-            }
-
-#Packaging {background-image: url(../recursos/servicio3.png);}
-#Ilustracion {background-image: url(../recursos/servicio4.png);}
+/*
 
 /*PAGINA PROYECTOS*/
 
